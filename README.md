@@ -25,7 +25,7 @@
 
 ```sql
 create plugin memory
-  implement by 'org.lealone.plugins.memory.MemoryStorageEngine' 
+  implement by 'com.lealone.plugins.memory.MemoryStorageEngine' 
   class path 'E:\lealone\lealone-plugins\memory\target\lealone-memory-plugin-6.0.0.jar';
 ```
 

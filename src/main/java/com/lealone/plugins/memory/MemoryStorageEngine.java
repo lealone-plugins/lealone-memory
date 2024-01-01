@@ -3,10 +3,10 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.memory;
+package com.lealone.plugins.memory;
 
-import org.lealone.storage.StorageBuilder;
-import org.lealone.storage.StorageEngineBase;
+import com.lealone.storage.StorageBuilder;
+import com.lealone.storage.StorageEngineBase;
 
 public class MemoryStorageEngine extends StorageEngineBase {
 

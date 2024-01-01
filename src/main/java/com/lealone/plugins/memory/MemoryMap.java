@@ -3,16 +3,16 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.memory;
+package com.lealone.plugins.memory;
 
 import java.util.NoSuchElementException;
 import java.util.concurrent.ConcurrentSkipListMap;
 
-import org.lealone.db.value.ValueLong;
-import org.lealone.storage.CursorParameters;
-import org.lealone.storage.StorageMapBase;
-import org.lealone.storage.StorageMapCursor;
-import org.lealone.storage.type.StorageDataType;
+import com.lealone.db.value.ValueLong;
+import com.lealone.storage.CursorParameters;
+import com.lealone.storage.StorageMapBase;
+import com.lealone.storage.StorageMapCursor;
+import com.lealone.storage.type.StorageDataType;
 
 /**
  * A skipList-based memory map

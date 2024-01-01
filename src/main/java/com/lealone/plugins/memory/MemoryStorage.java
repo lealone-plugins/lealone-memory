@@ -3,12 +3,12 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.memory;
+package com.lealone.plugins.memory;
 
 import java.util.Map;
 
-import org.lealone.storage.StorageBase;
-import org.lealone.storage.type.StorageDataType;
+import com.lealone.storage.StorageBase;
+import com.lealone.storage.type.StorageDataType;
 
 public class MemoryStorage extends StorageBase {
 

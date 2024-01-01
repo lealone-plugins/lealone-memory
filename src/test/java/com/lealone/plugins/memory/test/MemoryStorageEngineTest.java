@@ -3,16 +3,17 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.memory.test;
+package com.lealone.plugins.memory.test;
 
 import org.junit.Test;
-import org.lealone.db.PluginManager;
-import org.lealone.plugins.memory.MemoryStorageEngine;
-import org.lealone.storage.Storage;
-import org.lealone.storage.StorageBuilder;
-import org.lealone.storage.StorageEngine;
-import org.lealone.storage.StorageMap;
-import org.lealone.test.TestBase;
+import com.lealone.db.PluginManager;
+import com.lealone.storage.Storage;
+import com.lealone.storage.StorageBuilder;
+import com.lealone.storage.StorageEngine;
+import com.lealone.storage.StorageMap;
+import com.lealone.test.TestBase;
+
+import com.lealone.plugins.memory.MemoryStorageEngine;
 
 public class MemoryStorageEngineTest extends TestBase {
 

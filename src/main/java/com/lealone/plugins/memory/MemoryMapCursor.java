@@ -3,12 +3,12 @@
  * Licensed under the Server Side Public License, v 1.
  * Initial Developer: zhh
  */
-package org.lealone.plugins.memory;
+package com.lealone.plugins.memory;
 
 import java.util.Iterator;
 import java.util.Map.Entry;
 
-import org.lealone.storage.StorageMapCursor;
+import com.lealone.storage.StorageMapCursor;
 
 public class MemoryMapCursor<K, V> implements StorageMapCursor<K, V> {
 
